@@ -1,0 +1,36 @@
+CMD
+---------------------------------------
+>	git config --global user.email "yashmodi1310@gmail.com"
+>	git config --global user.name "Yash Modi"
+
+
+
+Git Bash
+------------------------------------------------------
+####check git verion
+$	git --version
+
+#### create New Directory
+$	mkdir yash
+
+#### reach this directory
+$	cd yash
+
+#### git directory Initialized 
+$	git init
+
+#### add file in staging area
+$	git add filename
+
+### different between staging file and local file 
+$	git diff
+
+### check the staging file status
+$	git status
+
+### commit file Satging to local machin
+$	git commit 
+$	git commit filename       ---  single file commit
+$	git commit -a			  ---  All file commit
+
+
