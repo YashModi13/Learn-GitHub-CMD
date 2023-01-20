@@ -33,7 +33,7 @@ $	git commit -m 'message'
 $	git commit filename  -m 'message'   ---  single file commit
 $	git commit -a	-m 'message'		  ---  All file commit
 
-origin means repository name
+origin means variable name
 
 …or create a new repository on the command line
 echo "# Learn-GitHub-CMD" >> README.md
@@ -50,3 +50,17 @@ git remote add origin https://github.com/YashModi13/Learn-GitHub-CMD.git
 git branch -M main
 git push -u origin main
 
+
+git remote add gitLearn https://github.com/YashModi13/Learn-GitHub-CMD.git
+git branch -M learn
+
+
+git branch
+git branch branchName
+
+# move branch
+git checkout branchName
+
+
+git merge branchName
+git mergetool
