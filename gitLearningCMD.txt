@@ -29,8 +29,8 @@ $	git diff
 $	git status
 
 ### commit file Satging to local machin
-$	git commit 
-$	git commit filename       ---  single file commit
-$	git commit -a			  ---  All file commit
+$	git commit -m 'message'
+$	git commit filename  -m 'message'   ---  single file commit
+$	git commit -a	-m 'message'		  ---  All file commit
 
 
